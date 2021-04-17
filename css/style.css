@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.carddif{
+    width: 48% !important;
+}
+
+@media (max-width:992px) {
+    .carddif{
+        width: 100% !important;
+    }
+    .aa1{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .aa1 li{
+        margin: 10px;
+    }
+
+    
+}
+
+@media (max-width:768px) {
+    .a1 li{
+        margin: 10px;
+    }
+}
